@@ -1,4 +1,5 @@
 // Runtime Complexity: O(1)
+// Space Complexity: O(n)
 const hasUniqueChars = (string) => {
   const uniqueCharsSet = new Set(string);
 

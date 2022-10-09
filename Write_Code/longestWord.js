@@ -1,4 +1,5 @@
 // Runtime Complexity: O(n)
+// Space Complexity: O(n)
 const findLongestWord = (arr) => {
   let maxLength = 0;
 
@@ -14,4 +15,3 @@ const findLongestWord = (arr) => {
 }
 
 console.log(findLongestWord(["hi", "hello"]));
-

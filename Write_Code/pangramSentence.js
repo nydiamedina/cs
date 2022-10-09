@@ -1,4 +1,5 @@
 // Runtime Complexity: O(n^2)
+// Space Complexity: O(n)
 const isPangram = (string) => {
   const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
   const lowercaseString = string.toLowerCase();
