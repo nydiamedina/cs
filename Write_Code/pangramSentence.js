@@ -5,7 +5,7 @@ const isPangram = (string) => {
   const lowercaseString = string.toLowerCase();
   
   for(let i = 0; i < alphabet.length; i++) {
-    if (!lowercaseString.includes(alphabet[i])) {
+    if(!lowercaseString.includes(alphabet[i])) {
       return false;
     }
   }
